@@ -1,5 +1,5 @@
 FROM openjdk:13
-RUN wget https://ci.fredboat.com/repository/download/Lavalink_Build/.lastSuccessful/Lavalink.jar?guest=1&branch=refs/heads/dev
+RUN wget https://github.com/lavalink-devs/Lavalink/releases/download/3.7.5/Lavalink.jar
 WORKDIR /opt/Lavalink
 
 COPY Lavalink.jar Lavalink.jar
